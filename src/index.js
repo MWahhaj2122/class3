@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import App from './App.js'
+import MediaCard from './MediaCard.js'
+import Gate from './Gate.js'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App lastName = "Nisar"/>
+    <MediaCard title = "Title of Page" body = "Body of Page" ImageURL = "https://i.pinimg.com/originals/3c/70/3c/3c703c212d6dbddaf0f0769e9e7ffeb7.jpg" divElement = {<h1>All Good</h1>}/>
+    <Gate check = "Open" />
+    <Gate check = "Closed" />
   </React.StrictMode>,
   document.getElementById('root')
 );
