@@ -4,7 +4,7 @@ function MediaCard(props) {
         <div>
           <h2>{props.title}</h2>
           <p>{props.body}</p>
-          <img src ={props.ImageURL}></img>  
+          <img src ={props.ImageURL} alt = {props.ImageAlt}></img>  
           {props.divElement}
         </div>
     )

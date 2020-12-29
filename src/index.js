@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <App lastName = "Nisar"/>
-    <MediaCard title = "Title of Page" body = "Body of Page" ImageURL = "https://i.pinimg.com/originals/3c/70/3c/3c703c212d6dbddaf0f0769e9e7ffeb7.jpg" divElement = {<h1>All Good</h1>}/>
+    <MediaCard title = "Title of Page" body = "Body of Page" ImageURL = "https://i.pinimg.com/originals/3c/70/3c/3c703c212d6dbddaf0f0769e9e7ffeb7.jpg" ImageAlt = "image" divElement = {<h1>All Good</h1>}/>
     <Gate check = "Open" />
     <Gate check = "Closed" />
   </React.StrictMode>,
